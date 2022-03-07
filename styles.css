@@ -1,0 +1,131 @@
+/* *{
+    --name-variavel: style;
+} */
+
+header{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(146, 142, 142);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal bolder normal 20px/1.5 'Roboto, Arial, sans-serif';
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    /* background-color: aqua; */
+    margin-top: 60px;
+}
+
+main .entrada-dados{
+    width: 100%;
+    height: 60px;
+    /* background-color: black; */
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entrada-dados input{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.entrada-dados button{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    background-color: brown;
+    cursor: pointer;
+}
+
+main ul{
+    width: 50%;
+    background-color:  #d3d3d3;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main ul div{
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(237, 155, 100); */
+    margin: 10px 10px;
+}
+
+main ul div li{
+    padding: 5px 5px;
+    text-align: left;
+    font: normal normal 200 normal 16px/1.2 'Roboto, Arial, sans-serif';
+    white-space: wrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ion-icon{
+    background-color: brown;
+    cursor: pointer;
+}
+
+ul section{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font: normal normal bolder normal 20px/1.5 'Roboto, Arial, sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(119, 119, 119);
+    border: 2px solid black;
+}
+
+footer{
+    width: 100%;
+    height: 60px;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer button{
+    width: 40%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 19px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    background-color: brown;
+    cursor: pointer;
+    margin: 10px 0;
+}
